@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://omitv.onrender.com");
 
 const App = () => {
   const [roomId, setRoomId] = useState("");
