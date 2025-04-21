@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+bower_components/
+
+# Build output
+dist/
+build/
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac system files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Misc
+*.tgz
+*.swp
+
+# Coverage reports
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Socket.IO debug logs
+debug.log
